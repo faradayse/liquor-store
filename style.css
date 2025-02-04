@@ -93,12 +93,12 @@ body {
 
 .header {
     background:linear-gradient(#fff,#8a8a8a)
+    
 
 }
 
 .header .row {
-   margin-top: 70px;
-
+margin-top: 70px;
 }
 
 .categories {
@@ -324,6 +324,7 @@ p  .fa.fa-quote-right {
    display: none;
 }
 
+
 /*--media querry for menu---*/
 
 @media only screen and (max-width:800px){
@@ -339,6 +340,7 @@ nav ul {
 nav ul li {
     display: block;
     margin-right: 50px;
+    margin-bottom: -5px;
    
 }
 
@@ -388,29 +390,27 @@ select:focus {
    background: blue;
 }
 
-/* single product detail*/
-
+/* single product details */
 .single-product {
    margin-top: 80px;
 }
-
 .single-product .col-2 img {
-   padding: 0;
-
+   padding: 10px;
 }
-
 .single-product .col-2 {
    padding: 20px;
+
 }
-.single-product h4 {
+
+.single-product h4{
    margin: 20px 0;
    font-size: 22px;
    font-weight: bold;
 }
 
-.single-product select {
+.single-product select{
    display: block;
-   padding: 10px;
+   padding:10px;
    margin-top: 20px;
 }
 
@@ -423,13 +423,13 @@ select:focus {
    border: 1px solid #ff523b;
 }
 
-input:focus{
+input:focus {
    outline: none;
 }
 
-.single-productfa {
+.single-product .fa   {
    color: #ff523b;
-   margin-left: 20px;
+   margin-left: 10px;
 }
 
 .small-img-row {
@@ -437,16 +437,145 @@ input:focus{
    justify-content: space-between;
 }
 
-/*account-page*/
-
-
-.form-container {
-background:red;
-width: 300px;
-height: 400px;
-position: relative;
-text-align: center;
+.small-img-col {
+   flex-basis: 24%;
+   cursor: pointer;
 }
+
+/* cart items */
+.cart-page {
+   margin: 80px auto;
+}
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+.cart-info {
+   display: flex;
+   flex-wrap: wrap;
+}
+th {
+   text-align: left;
+   padding: 5px;
+   color:#fff;
+   background: #ff523b;
+   font-weight: normal;
+}
+
+td {
+   padding: 10px 5px;
+}
+
+td input {
+   width: 40px;
+   height:30px;
+   padding: 5px;
+}
+
+td a {
+   color: #ff523b;
+   font-size: 12px;
+
+}
+
+td img {
+   width: 80px;
+   height: 80px;
+   margin-right: 10px;
+}
+.total-price {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.total-price table {
+   border-top:3px solid #ff523b;
+   width:100%;
+   max-width: 320px;
+   }
+
+td:last-child {
+   text-align: right;
+}
+
+th:last-child {
+   text-align: right;
+}
+ /*----account page----*/
+ .account-page {
+   padding: 50px 0;
+   background:radial-gradient(#fff, #ffd6d6);
+
+ }
+
+ .form-container {
+   background:#fff;
+   margin-top: 50px;
+   width: 300px;
+   height: 400px;
+   position: relative;
+   text-align: center;
+   padding: 20px 0;
+   margin: auto;
+   box-shadow:0 0 20px 0px rgba(0, 0,  0, 0.1);
+   overflow: hidden;
+ }
+
+ .form-container span {
+   font-weight: bold;
+   padding: 0 10px;
+   color: #555;
+   cursor: pointer;
+   width: 100px;
+   display: inline-block;
+ }
+
+ .form-btn {
+   display:inline-block;
+ }
+.form-container form {
+   max-width: 300px;
+   padding: 0 20px;
+   position: absolute;
+   top: 130px;
+   transition: transform 1s;
+}
+ form input {
+   width: 100%;
+   height: 30px;
+   margin: 10px 0;
+   padding: 0 10px;
+   border: 1px solid #ccc;
+ }
+form .btn {
+   width: 100%;
+   border: none;
+   cursor: pointer;
+   margin: 10px 0;
+}
+ form.btn:focus {
+   outline: none;
+ }
+ #LoginForm {
+   left: -300px;
+ }
+ #RegForm {
+   left:0;
+ }
+ form a {
+   font-size: 15px;
+ }
+
+ #Indicator {
+   width: 100px;
+   border: none;
+   background: #ff523b;
+   height: 3px;
+   margin-top: 8px;
+   transform: translateX(100px);
+   transition:transform 1s;
+ }
 
 /*media querry for less than 600px*/
 @media only screen and (max-width:600px){
@@ -470,5 +599,10 @@ text-align: center;
             font-size: 26px;
             line-height: 32px;
            }
-
+@media only screen and (max-width:801px){
+          .form-container {
+            margin-top:100px;
+          }
+}
+           
 
