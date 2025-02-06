@@ -16,7 +16,8 @@ The shop has a wide variety of products ranging from different prices.Ratings on
 
 #### About & Contact
 TG Beverages is all about the deals, experience and reliable distribution across the country.Known extensively via it's social media pages and b2b referrals we seek to also tap into the online space where customers can directly order their fave liquor via our website.
----
+
+----
 ## Technologies Used
 - **HTML5**  
 - **CSS3** 
