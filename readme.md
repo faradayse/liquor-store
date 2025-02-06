@@ -22,7 +22,6 @@ TG Beverages is all about the deals, experience and reliable distribution across
 ## Technologies Used
 - **HTML5**  
 - **CSS3** 
-  **Javascript** 
 - [Font Awesome](https://fontawesome.com/)version 4.7 CDN  
 - [Google Fonts](https://fonts.google.com/) 
   [Coolors](https://coolors.com/)
@@ -41,6 +40,7 @@ You will need the following tools installed on your machine:
 
 ## Usage
 To use this project, open the `index.html` file in your web browser. You can also deploy it to a web server to make it accessible online.
+
 ---
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
@@ -52,7 +52,10 @@ Contributions are welcome! Please follow these steps to contribute:
 ---
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
 ---
 ## Contact
 faradayse TG BEVERAGES
-###
+
+### Link
+https://faradayse.github.io/liquor-store/
