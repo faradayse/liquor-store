@@ -4,6 +4,7 @@ This is a e-commerce website dealing in selling liquor.
 ## Overview
 This project is a responsive simple website designed to showcase modern web design techniques using HTML5,css and js. It includes features such as flexbox, and media queries to ensure a seamless user experience across different devices.
 A brief description of what the project does and its purpose.
+
 ---
 ## Table of Contents
 It is made up of;
@@ -54,3 +55,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 ## Contact
 faradayse TG BEVERAGES
+###
